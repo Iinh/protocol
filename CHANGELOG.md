@@ -1,4 +1,4 @@
-# HEAD
+# 14.0.0
 
 ## Features
 
@@ -13,10 +13,6 @@
 * **css:** Add horizontal spacing tokens (#345)
 * **css:** Add vertical spacing tokens (#536)
 
-## Migration Tips
-
-* See notes for [Protocol Assets 4.0.0](https://github.com/mozilla/protocol-assets/blob/main/CHANGELOG.md#migration-tips)
-
 ## Bug Fixes
 
 * **a11y:** Fix link button focus color. (#655)
@@ -24,6 +20,7 @@
 ## Migration Tips
 
 * The new spacing tokens increase vertical spacing at some breakpoints for `.mzp-l-content`. If you have custom components which match the padding around Protocol components you may wish to update those components to use the new spacing tokens.
+* See notes for [Protocol Assets 4.0.0](https://github.com/mozilla/protocol-assets/blob/main/CHANGELOG.md#migration-tips)
 
 
 # 13.0.1
